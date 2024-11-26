@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", serif;
+    background-color: rgb(224, 223, 223);
+}
+.header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    padding-bottom: 5px;
+}
+ul{
+    display:flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    margin-right: 10%;
+    font-size: 1rem;
+    font-weight: 600;
+    gap: 12px;
+    cursor:pointer;
+}
+li{
+    color: #cccc;
+    list-style: none;
+    transition: all .3s ease;
+}
+li:hover{
+    color:yellow;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+    margin-top: 10px;
+}
+.card{
+    border-radius: 5px;
+    width:200px;
+    height: 305px;
+    border: 1px solid;
+    transition: all .4s;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 3px 3px 20px black;
+}
+img{
+    width: 100%;
+    height: 67%;
+    border-radius: 5px 0;
+    transition: .5s ease;
+}
+h3{
+    text-align: center;
+    color: red;
+}
+p{
+    padding: 0px 10px;
+    text-align: center;
+    font-size: large;
+}
+button{
+    padding: 7px 28px;
+    margin: 4px 56px;
+    border-radius: 5px;
+    font-weight: 750;
+    border: none;
+    background-color: red;
+    color: white;
+    transition: .3s;
+}
+button:hover{
+    background-color:green;
+    cursor: pointer;
+}
+.login{
+    text-align: center;
+    background-color: #d2f1af;
+    padding: 8px 0 1px 0; 
+    margin: 17px 20% 3px 20%;
+    border-radius: 5px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    padding: 5px 15px;
+    margin-bottom: 15px;
+}
+label{
+    display: inline-block;
+    width: 100px;
+    font-weight: 500;
+    font-size: .9rem;
+}
+input{
+    width: 300px;
+    height: 22px;
+    outline: none;
+    margin: 0 10px;
+    border: none;
+    border-bottom: 1px solid;
+    background-color: transparent;
+}
+
+.finish{
+    width: 80px;
+    height: 28px;
+    background-color: #399b01;
+    border-radius: 3px;
+    border: none;
+    transition: .5s ease;
+}
+.finish:hover{
+    background-color: #5fc922;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding: 5px 0 5px 5% ;
+    position: relative;
+    bottom: -23px;
+}
+.footer div{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    gap: 5px;
+    font-size: .9rem;
+}
+
+.footer p{
+    font-size: .9rem;
+}
